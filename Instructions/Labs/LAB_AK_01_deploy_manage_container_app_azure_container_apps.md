@@ -842,13 +842,11 @@ Complete los pasos siguientes para configurar las reglas de escalado HTTP para l
 
 1. Asegúrese de que la aplicación contenedora esté abierta en el portal.
 
-1. En el menú de la izquierda en Aplicación, seleccione **Revisiones**.
+1. En el menú de la izquierda en Aplicación, seleccione **Revisiones y réplicas**.
 
 1. Observe el nombre asignado a la revisión activa.
 
-1. En el menú de la izquierda en Aplicación, seleccione **Escalar y réplicas**.
-
-1. A la derecha de Revisión, asegúrese de que está seleccionada la revisión activa.
+1. En el menú de la izquierda en Aplicación, seleccione **Escalar**.
 
 1. En la parte superior de la página, seleccione **Editar e implementar**.
 
@@ -1038,7 +1036,7 @@ Complete los pasos siguientes para establecer la administración de revisiones e
 
 1. En Azure Portal, abra el recurso de la aplicación de contenedor.
 
-1. En el menú de la izquierda, en Aplicación, seleccione **Revisiones**.
+1. En el menú de la izquierda en Aplicación, seleccione **Revisiones y réplicas**.
 
 1. En la parte superior de la página Revisiones, seleccione **Elegir modo de revisión**.
 
@@ -1087,13 +1085,13 @@ Complete los pasos siguientes para configurar etiquetas en las revisiones.
 
     - Conexiones no seguras: asegúrese de que Permitido **no** está activado.
 
-    - Puerto de destino: escriba **80**
+    - Puerto de destino: escriba **5000**
 
     - Modo de restricciones de seguridad de IP: asegúrese de que está seleccionado **Permitir todo el tráfico**.
 
 1. En la parte inferior de la página Entrada, seleccione **Guardar** y espere a que se complete la actualización.
 
-1. En el menú de la izquierda, en Revisiones, seleccione **Revisiones**.
+1. En el menú de la izquierda, en Revisiones, seleccione **Revisiones y réplicas**.
 
 1. Para la revisión v2, en Etiqueta, escriba **actualizado**.
 
