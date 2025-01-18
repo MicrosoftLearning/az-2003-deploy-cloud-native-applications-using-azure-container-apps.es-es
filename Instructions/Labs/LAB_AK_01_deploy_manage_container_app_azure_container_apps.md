@@ -848,11 +848,7 @@ Complete los pasos siguientes para configurar las reglas de escalado HTTP para l
 
 1. En el menú de la izquierda en Aplicación, seleccione **Escalar**.
 
-1. En la parte superior de la página, seleccione **Editar e implementar**.
-
-1. En la parte inferior de la página, seleccione **Siguiente: Escala**.
-
-1. Configure las réplicas mínimas y máximas de la siguiente manera:
+1. Revisa la actual **Configuración de regla de escalado**, configura las réplicas mínimas y máximas de la siguiente manera:
 
     - Establezca las réplicas mínimas: 0
     - Establezca las réplicas máximas: 2
@@ -867,11 +863,11 @@ Complete los pasos siguientes para configurar las reglas de escalado HTTP para l
 
 1. En la página Agregar regla de escalado, seleccione **Agregar**.
 
-1. En la página Crear e implementar una nueva revisión, seleccione **Crear**.
+1. En la página Escala, selecciona **Guardar como una nueva revisión**.
 
 1. Asegúrese de que se muestra la nueva regla de escalado.
 
-    Si la regla de escalado no se muestra después de actualizarla, compruebe la pestaña Revisiones para ver la revisión activa actual y, a continuación, ajuste la revisión seleccionada en la página Escala y réplicas si es necesario.
+    Si la regla de escalado no se muestra después de actualizar, comprueba la revisión seleccionada para ver la revisión activa actual y, a continuación, ajusta la revisión seleccionada en la página Escala y réplicas si es necesario.
 
 ### Ejercicio 6: Configurar la integración continua mediante Azure Pipelines
 
