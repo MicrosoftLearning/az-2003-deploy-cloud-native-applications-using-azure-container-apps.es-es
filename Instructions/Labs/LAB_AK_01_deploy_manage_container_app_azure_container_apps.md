@@ -342,13 +342,15 @@ Complete los pasos siguientes para configurar el proyecto de Azure DevOps.
     - Descripción: **Proyecto de código AZ2003**
     - Visibilidad: **Pública**.
 
-1. Seleccione **Create project** (Crear proyecto).
+1. Seleccione **Crear**.
 
-1. En el menú de la izquierda de la página AZ2003Project, seleccione **Repositorios**.
+1. Selecciona **AZ2003Project**.
 
-1. En Inicializar rama principal con un archivo README o gitignore, seleccione **Inicializar**.
+1. En el menú de la izquierda de la página de AZ2003Project, selecciona **Repositorios**.
 
-1. Seleccione **Clonar** y luego seleccione **Clonar en VS Code**.
+1. En Todos los repositorios, selecciona **AZ2003Project** y, a continuación, selecciona **Examinar**.
+
+1. Seleccione **Clonar en VS Code**.
 
 1. En el cuadro de diálogo Este sitio está intentando abrir Visual Studio Code, seleccione **Abrir**.
 
@@ -801,7 +803,7 @@ Complete los pasos siguientes para configurar la aplicación contenedora para au
 
 1. En Azure Portal, abra la aplicación contenedora que creó.
 
-1. Seleccione **Identidad** en Configuración.
+1. En Seguridad, selecciona **Identidad**.
 
 1. Seleccione la pestaña **Asignado por el usuario**.
 
@@ -1065,7 +1067,7 @@ La entrada debe estar habilitada para poder configurar las etiquetas de revisió
 
 Complete los pasos siguientes para configurar etiquetas en las revisiones.
 
-1. En el menú de la izquierda, en Configuración, seleccione **Entrada**.
+1. En el menú de la izquierda, en Redes, selecciona **Entrada**.
 
 1. Si la entrada no está habilitada, seleccione **Habilitado**.
 
