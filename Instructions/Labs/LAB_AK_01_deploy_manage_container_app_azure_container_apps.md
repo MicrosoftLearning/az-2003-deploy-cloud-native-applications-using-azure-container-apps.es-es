@@ -456,6 +456,13 @@ Complete los pasos siguientes para crear una imagen de Docker e insertar la imag
 
 1. En el menú del lado izquierdo, para abrir la vista Docker, seleccione Docker.
 
+1. Antes de conectarse al registro, asegúrese de que se ha autenticado correctamente con Azure en Visual Studio Code:
+
+    - En la barra de actividades, seleccione **Azure** (el icono de Azure).
+    - En la vista de Azure, expanda **CUENTAS e INQUILINOS**.
+    - Compruebe que la cuenta de Azure aparece y está seleccionada (activada). Si no es así, seleccione su cuenta para autenticarse.
+    - Si necesita iniciar sesión, seleccione **Iniciar sesión en Azure** y complete el proceso de autenticación.
+
 1. En la vista DOCKER, en Registros, seleccione **Conectar registro** y, a continuación, seleccione **Azure Container Registry**.
 
 1. En la vista DOCKER, expanda **Azure** y, a continuación, seleccione **Permitir**.
